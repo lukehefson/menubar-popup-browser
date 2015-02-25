@@ -100,8 +100,10 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <webView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFm-98-dAy">
-                    <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
-                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                    <rect key="frame" x="0.0" y="0.0" width="500" height="460"/>
+                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                        <nil key="identifier"/>
+                    </webPreferences>
                 </webView>
             </subviews>
             <point key="canvasLocation" x="349" y="278"/>
